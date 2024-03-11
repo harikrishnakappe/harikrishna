@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+img{
+    width:100%;
+}
+body{
+    background-color: #212121;
+}
+nav{
+    background-color: white;
+}
+.header{
+    display:flex;
+    align-items: center;
+}
+@media(min-width:300px){
+nav img{
+    height:13vh;
+    width:auto;
+    margin-right:1rem
+}
+nav{
+    display:flex;
+    justify-content:center;
+    padding:1vh 0;
+}
+.header h1{
+    color:#212121;
+}
+.main h1,h3{
+    text-align:center;
+    padding:2vh 0;
+}
+.main h3{
+    margin-top:3vh;
+}
+.main img{
+    padding-top:5vh;
+}
+.form{
+    background:white;
+    padding:2vh;
+    width:90%;
+    margin:6vh auto;
+    border-radius:12px;
+}
+.form label{
+    color:#212121;
+}
+.button:hover{
+    box-shadow: 1px 2px 2px 2px solid greenyellow;
+}
+.form input[type="text"]{
+    border:none;
+    padding:1rem;
+    border-bottom:2px solid #212121;
+    outline:none;
+    color:#212121;
+    width:90%;
+    margin:1rem;
+    
+}
+.form input[type="radio"],input[type="checkbox"]{
+    margin-top:2vh;
+    margin-bottom:2vh;
+    margin-right:1rem;
+}
+.hover:hover{
+    box-shadow:1px 2px 2px 2px gold;
+}
+.email:hover{
+    box-shadow:1px 2px 2px 2px gold;
+}
+.form:hover{
+    box-shadow:3px 5px 5px 5px yellow;
+}
+.checkbox{
+    display:grid;
+    grid-template-columns: repeat(2,0.5fr);
+}
+.button{
+    
+    background-color: #212121;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    padding:1rem;
+    width:90%;
+}
+.section h2{
+    text-align: center;
+}
+.cards{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card{
+    background-color: white;
+    padding:1.5rem;
+    margin:1rem;
+    border-radius: 25px;
+
+}
+.segmentA , .segmentB{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+
+}
+.segmentA img{
+    width:70%;
+    
+}
+.segmentA h2{
+    color:#212121;
+    text-align: center;
+    margin-bottom:0.5vh;
+}
+.segmentB{
+    background-color: #212121;
+
+
+}
+.segmentB img{
+    width:70%;
+}
+.segmentB h2{
+    color:white;
+    text-align: center;
+    padding-top:5vh;
+}
+}
+@media (min-width:700px){
+    .main h1, h3{
+        font-size:2rem;
+    }
+    .section h2{
+        font-size:2rem;
+    }
+    .cards{
+        margin:5rem;
+    }
+    .segment{
+        display:flex;
+        flex-direction:row;
+    }
+    .segmentA{
+        width:50%;
+    }
+    .segmentB{
+        width:50%;
+    }
+   
+}
+@media(min-width:900px){
+    nav{
+        justify-content:left;
+        padding-left:8rem;
+    }
+    .main h1, h3{
+        display:none;
+    }
+    .form{
+        width:50%;
+    }
+    .hero{
+        display:flex;
+        flex-direction: row-reverse;
+        width:90%;
+        margin:0 auto;
+        justify-content: space-between;
+    }
+    .form label{
+        font-size:2rem;
+    }
+    .form input[type="text"]{
+        font-size:2rem;
+}
+.form form{
+    padding:1rem;
+
+}
+.form{
+    margin:2rem;
+    background-color: blue;
+}
+
+.button{
+    margin: 2rem;
+    padding:1.5rem;
+}
+
+.section{
+    font-size:3rem;
+    margin-top:5vh;
+}
+.cards{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.segmentA, .segmentB {
+    font-size:1.5rem;
+}
+
+
+
+
+
+
+
+
